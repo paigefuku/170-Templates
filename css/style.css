@@ -1,0 +1,272 @@
+/*
+css for template | WEB 170 | SPRING 2016
+
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato);
+ @import url(https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco);
+ @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+ @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+ @import url(https://fonts.googleapis.com/css?family=Muli);           
+
+html {
+background-color: #e6e9e9;
+background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+background-image: -o-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+background-image: -moz-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+background-image: -ms-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
+-webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1024px;
+    width:auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+header {
+
+background-image: 
+width:90%;
+max-width:1280px;
+
+}
+
+
+img#logo {
+width:15%;
+}
+
+#wordsHeader {
+display: inline-block;
+position: relative;
+top:-80px;
+margin:auto;
+width:100%;
+}
+h1 {
+font-family: 'Muli', sans-serif;
+padding:0;
+margin:0;
+text-transform: none;
+font-size: 1.8em;
+text-transform: uppercase;
+width:100%;
+padding-bottom: 10px;
+border-bottom: 1px black solid;
+letter-spacing: 1px;
+
+
+}
+
+header a {
+text-decoration: none;
+color:#000000;
+}
+header a:hover {
+color:#000000;
+text-decoration: none;
+}    
+header h2 {
+padding:0;
+margin:0;
+font-size:.925em; 
+text-transform: 0;
+padding-top: 5px;
+width:50%;
+font-family: 'Lato', sans-serif;
+font-weight: 100;
+
+}
+a {
+color: #01af84;
+text-decoration: none;
+    
+}
+a:hover {
+color:#dc00ff;
+font-weight: 800;
+}
+#menu {
+text-align: right;
+position: relative;
+top:-110px;
+font-size:.95em;
+font-family: 'Lato', sans-serif;
+z-index: 1000;
+}
+#navmenu ul {
+margin: 0; padding: 0; 
+list-style-type: none; 
+list-style-image: none;
+background-color: #ffffff;
+
+
+
+}
+        
+#navmenu li {
+display: inline-block;
+padding:0 1em;
+}  
+        
+#navmenu li a {
+text-decoration: none;
+margin:5px;
+color:inherit;
+     }    
+#navmenu li a:active {
+color:#00ad9e;
+}
+#navmenu li a:hover {
+ color:#dc00ff;
+font-weight: 800;
+
+}
+#navmenu li ul {
+text-align: left;
+position: absolute;
+display: none;
+padding: 0; margin: 0;
+padding-left: 5px;
+background-color: #ffffff;
+opacity: .75;
+}
+        
+#navmenu li:hover ul {
+display: block;
+
+
+}
+#navmenu li ul li {
+display: block;
+padding: 0; margin: 0;
+position: relative;
+left:-10px;
+font-size:.75em;
+border-bottom: solid 1px black;
+
+}
+$navmen li ul li:hover {
+opacity: 1.0;
+
+
+}
+    
+#navmenu li ul li:last-child {
+padding-bottom: 20px;
+border-bottom:none;
+
+}
+ul .subnavmenuLI li:hover {
+padding-left: 5px;
+}
+        
+#flyingpapers {
+width:60%;
+align-content: center;
+padding-bottom: 20px;
+float:right;
+    
+}
+#slideshow {
+margin:auto;
+width: 25%;
+}
+.rslides {
+position: relative;
+list-style: none;
+overflow: hidden;
+width: 100%;
+padding: 0;
+margin: 0;
+background-color: blue;
+}
+
+.rslides li {
+-webkit-backface-visibility: hidden;
+position: absolute;
+display: none;
+width: 100%;
+left: 0;
+top: 0;
+}
+
+.rslides li:first-child {
+position: relative;
+display: block;
+float: left;
+}
+
+.rslides img {
+display: block;
+height: auto;
+float: left;
+width: 100%;
+border: 0;
+}
+        
+.intro {
+width:80%;
+font-family: 'Noto Sans', sans-serif;
+font-size: .75em;
+text-transform: none;
+margin:auto;
+
+position: relative;
+top:-130px;
+}
+.intro h2 {
+text-align: center;
+    padding:2em 0;
+font-size: 2em;
+
+}
+        
+.intro h3 {
+text-transform: uppercase;
+}
+        
+.intro p {
+line-height: normal;
+}
+        
+#meatPotatoes {
+
+width:90%;
+margin:auto;
+
+
+}
+#steak {
+float:left;
+width:48%;
+padding:2em 0;
+}
+#asparagus {
+float:right;
+width:48%;
+padding:2em 0;
+}     
+blockquote {
+font-size:1.2em;
+font-weight: 400;
+font-family: 'Noto Sans', arial;
+line-height: 100%;
+    font-style: italic;
+}
+        
+footer {
+font-size:10px;
+text-align: center;
+clear:both;
+width:100%;
+padding-top: 2em;
+
+}
